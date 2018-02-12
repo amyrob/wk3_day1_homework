@@ -39,4 +39,5 @@ SELECT * FROM movies ORDER BY show_time;
 ## Extension
 
 1. Research how to delete multiple entries from your table in a single command.
---DELETE FROM attendances WHERE movie_id = 1;
+--DELETE FROM movies
+--WHERE title IN ('Captain America: The First Avenger', 'Captain America: The Winter Soldier', 'Captain America: Civil War');
