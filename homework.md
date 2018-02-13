@@ -17,7 +17,7 @@
 -- WHERE name = 'Amy Robertson';
 
 5. The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
--- DELETE FROM movies WHERE name = 'Batman Begins';
+-- DELETE FROM movies WHERE title = 'Batman Begins';
 
 6. Create a new entry in the 'people' table with the name of one of the instructors.
 -- INSERT INTO people (name)
