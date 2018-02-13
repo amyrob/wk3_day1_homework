@@ -27,12 +27,12 @@
 -- DELETE FROM people WHERE name = 'Jarrod Bennie';
 
 8. The cinema has just heard that they will be holding an exclusive midnight showing of 'Guardians of the Galaxy 2'!! Create a new entry in the 'movies' table to reflect this.
-INSERT INTO movies(title, year, show_time)
-VALUES ('Guardians of the Galaxy 2', 2017, '24:00');
+--INSERT INTO movies(title, year, show_time)
+--VALUES ('Guardians of the Galaxy 2', 2017, '24:00');
 
 9. The cinema would also like to make the Guardian movies a back to back feature. Update the 'Guardians of the Galaxy' show time from 18:55 to 21:30
-UPDATE movies SET show_time = '21:30'
-WHERE title = 'Guardians of the Galaxy';
+--UPDATE movies SET show_time = '21:30'
+--WHERE title = 'Guardians of the Galaxy';
 
 SELECT * FROM movies ORDER BY show_time;
 
@@ -41,3 +41,5 @@ SELECT * FROM movies ORDER BY show_time;
 1. Research how to delete multiple entries from your table in a single command.
 --DELETE FROM movies
 --WHERE title IN ('Captain America: The First Avenger', 'Captain America: The Winter Soldier', 'Captain America: Civil War');
+--DELETE FROM movies
+--WHERE title = '' OR ''
